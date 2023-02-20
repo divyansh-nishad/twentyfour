@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:twentyfour/screens/onboard_screen/on_boarding_screen.dart';
+import 'package:twentyfour/screens/login/onboarding.dart';
+// import 'package:twentyfour/screens/onboard_screen/on_boarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const OnBoardingScreen(),
+      home: HomeScreen(),
     );
   }
 }
